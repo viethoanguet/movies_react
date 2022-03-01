@@ -1,0 +1,37 @@
+#main{
+    padding-top: 80px;
+    background-color: #ffffff;
+  }
+  .cs-hidden{
+    display: flex;
+  }
+  .showcase-box{
+    width: 350px;
+    height: 250px;
+    box-shadow: 5px 15px 30px rgba(0,0,0, 0.3);
+    border-radius: 10px;
+    margin: 0px 20px 10px 20px;
+    overflow: hidden;
+  }
+  .showcase-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .showcase-heading{
+    padding-left: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #1a1a1a;
+  }
+  .showcase-heading:hover{
+    font-weight: bold;
+    text-decoration:dashed;
+  }
+  .showcase-box:hover{
+    transform: scale(1.1);
+    transition: all ease 0.2s;
+  }
